@@ -1,6 +1,6 @@
 {
   "name": "webretro",
-  "version": "6.5.0",
+  "version": "6.5.0.1",
   "description": "Web-based RetroArch emulator with Libretro cores compiled to WASM using emscripten.",
   "main": "index.html",
   "scripts": {
