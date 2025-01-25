@@ -1,0 +1,32 @@
+{
+  "name": "webretro",
+  "version": "6.5.0",
+  "description": "Web-based RetroArch emulator with Libretro cores compiled to WASM using emscripten.",
+  "main": "index.html",
+  "scripts": {
+    "start": "simple-http-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -rf dist",
+    "compile": "webpack --config webpack.config.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "emscripten": "^2.0.25",
+    "libretro": "^1.9.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2",
+    "simple-http-server": "^1.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coolkid0786/webretro-standalone-links.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Coolkid0786/webretro-standalone-links/issues"
+  },
+  "homepage": "https://github.com/Coolkid0786/webretro-standalone-links#readme"
+}
